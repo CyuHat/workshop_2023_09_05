@@ -1,0 +1,6 @@
+"0","#| echo: false"
+"0","# Libraries"
+"0","pacman::p_load(ggplot2, gt, gtsummary, tidyverse, rio, sjPlot)"
+"0",""
+"0","viz <- import(""MyData/3_figures/emancipative_sex_urban.rds"")"
+"0","tab <- import(""MyData/4_models/regression_table.rds"")"
